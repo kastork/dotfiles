@@ -31,6 +31,7 @@ brew 'vim'
 
 cask '1password'
 cask 'adium'
+cask 'adobe-acrobat'
 # cask 'atom'
 cask 'anaconda'
 cask 'evernote'
