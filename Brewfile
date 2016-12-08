@@ -19,6 +19,7 @@ brew 'tree'
 brew 'unrar'
 brew 'wget'
 brew 'vim'
+brew 'zsh'
 
 
 cask '1password'
@@ -26,6 +27,8 @@ cask 'adium'
 cask 'adobe-acrobat'
 cask 'alfred'
 cask 'anaconda'
+cask 'Boxcryptor'
+cask 'box-sync'
 cask 'evernote'
 cask 'eclipse-installer'
 # cask 'fantastical'   get from app store instead
