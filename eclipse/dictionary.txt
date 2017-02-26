@@ -2,3 +2,15 @@ configurator
 integrator
 integrators
 Monterey
+Plugin
+plugin
+Plugins
+plugins
+Pre
+Pref
+Prefs
+classpath
+Javadoc
+cxxirc
+basetester
+endof
