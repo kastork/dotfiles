@@ -1,0 +1,4 @@
+#! /usr/bin/env bash
+
+defaults write com.apple.Finder AppleShowAllFiles TRUE;
+killall Finder
