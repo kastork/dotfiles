@@ -114,5 +114,29 @@ install_dotfiles () {
   done
 }
 
+link_localrc () {
+  info 'linking synced localrc file'
+  link_file  ~/sync/.secrets/localrc  ~/.localrc
+}
+
+link_ssh () {
+  info 'linking synced .ssh` file'
+  link_file  ~/sync/.secrets/.ssh  ~/.ssh
+}
+
+link_gradle () {
+  info 'linking synced gradle dir'
+  link_file  ~/sync/.secrets/gradle/gradle.properties  ~/.gradle/gradle.properties
+}
+
+link_gradle () {
+  info 'linking synced .ngrok dir'
+  link_file  ~/sync/.secrets/ngrok  ~/.ngrok2
+}
 install_dotfiles
+link_gradle
+link_localrc
+link_ssh
+link_ngrok
+
 
