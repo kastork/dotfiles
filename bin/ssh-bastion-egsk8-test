@@ -1,0 +1,9 @@
+#! /usr/bin/env zsh
+
+# evernote:///view/2147483647/s497/934bcfda-683c-4be9-b421-f8ecb7aa06e5/s497/934bcfda-683c-4be9-b421-f8ecb7aa06e5
+
+
+eval $(ssh-agent);
+ssh-add ~/.ssh/kops-k8s-node;
+
+ssh -A admin@bastion-egsk8s-test-g-glo-c2hkri-1777071128.us-west-2.elb.amazonaws.com
