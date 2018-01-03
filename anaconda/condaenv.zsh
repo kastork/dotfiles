@@ -1,1 +1,1 @@
-export PATH=~/anaconda/bin:"$PATH"
+export PATH=/usr/local/anaconda3/bin:"$PATH"

@@ -40,7 +40,7 @@ brew 'zsh'
 
 #cask '1password'  # Problematic to install this way (mulitiple copy issues)
 cask 'adium'
-cask 'adobe-reader'
+cask 'adobe-acrobat-reader'
 cask 'alfred'
 cask 'anaconda'
 cask 'Boxcryptor'
