@@ -76,6 +76,7 @@ cask 'transmission'
 cask 'resilio-sync'
 cask 'sequel-pro'
 cask 'sizeup'
+cask 'yakyak'
 # cask 'unity-download-assistant' # confuses things when you have more than one unity install.
 
 
