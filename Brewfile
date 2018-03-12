@@ -31,6 +31,7 @@ brew 'p7zip'
 brew 'readline'
 brew 'socat'
 brew 'spark'
+brew 'tig'
 brew 'tmux'
 brew 'tree'
 brew 'unrar'
@@ -40,9 +41,9 @@ brew 'zsh'
 
 #cask '1password'  # Problematic to install this way (mulitiple copy issues)
 cask 'adium'
-cask 'adobe-acrobat-reader'
+# cask 'adobe-acrobat-reader' # Can't seem to update itself
 cask 'alfred'
-cask 'anaconda'
+# cask 'anaconda' # Pycharm can't find it if installed with brew, use the regular Anaconda installer instead
 cask 'Boxcryptor'
 cask 'box-sync'
 cask 'dash'
