@@ -133,10 +133,16 @@ link_gradle () {
   info 'linking synced .ngrok dir'
   link_file  ~/sync/.secrets/ngrok  ~/.ngrok2
 }
+
+link_aws () {
+  info 'linking synced .aws dir'
+  link_file  ~/sync/.secrets/.aws  ~/.aws
+}
+
 install_dotfiles
 link_gradle
 link_localrc
 link_ssh
 link_ngrok
-
+link_aws
 
