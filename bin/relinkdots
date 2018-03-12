@@ -120,7 +120,7 @@ link_localrc () {
 }
 
 link_ssh () {
-  info 'linking synced .ssh` file'
+  info 'linking synced .ssh file'
   link_file  ~/sync/.secrets/.ssh  ~/.ssh
 }
 
