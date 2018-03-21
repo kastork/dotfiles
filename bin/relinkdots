@@ -140,9 +140,9 @@ link_aws () {
 }
 
 install_dotfiles
+link_aws
 link_gradle
 link_localrc
 link_ssh
 link_ngrok
-link_aws
 
