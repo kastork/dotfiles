@@ -43,7 +43,7 @@ cask 'adium'
 # cask 'adobe-acrobat-reader' # Can't seem to update itself
 cask 'alfred'
 # cask 'anaconda' # Pycharm can't find it if installed with brew, use the regular Anaconda installer instead
-cask 'Boxcryptor'
+# cask 'Boxcryptor' # Update never seems to work
 cask 'box-sync'
 cask 'dash'
 cask 'discord'
@@ -71,7 +71,7 @@ cask 'skype'
 cask 'slack'
 cask 'steam'
 cask 'sublime-text'
-cask 'tower'
+# cask 'tower' # Using the public beta, manage manually
 # cask 'transmit'  # get via app store instead
 cask 'transmission'
 cask 'resilio-sync'
