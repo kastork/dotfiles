@@ -14,7 +14,7 @@ then
 fi
 
 # Load custom zsh plugins
-echo "zsh plugins"
+#echo "zsh plugins"
 source ~/sync/settings/zsh-nvm/zsh-nvm.plugin.zsh
 
 
@@ -22,21 +22,21 @@ source ~/sync/settings/zsh-nvm/zsh-nvm.plugin.zsh
 typeset -U config_files
 config_files=($ZSH/**/*.zsh)
 
-echo "paths"
+#echo "paths"
 
 # load the path files
 for file in ${(M)config_files:#*/path.zsh}
 do
-  echo $file
+  #echo $file
   source $file
 done
 
-echo "others"
+#echo "others"
 
 # load everything but the path and completion files
 for file in ${${config_files:#*/path.zsh}:#*/completion.zsh}
 do
-  echo $file
+  #echo $file
   source $file
 done
 
@@ -44,11 +44,11 @@ done
 autoload -U compinit
 compinit
 
-echo "Completions"
+#echo "Completions"
 # load every completion after autocomplete loads
 for file in ${(M)config_files:#*/completion.zsh}
 do
-  echo $file
+  #echo $file
   source $file
 done
 
