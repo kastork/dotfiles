@@ -87,6 +87,7 @@ cask 'sublime-text'
 # cask 'tower' # Using the public beta, manage manually
 # cask 'transmit'  # get via app store instead
 cask 'transmission'
+cask 'visual-studio-code'
 cask 'resilio-sync'
 cask 'sequel-pro'
 cask 'sizeup'

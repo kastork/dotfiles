@@ -112,37 +112,12 @@ install_dotfiles () {
     dst="$HOME/.$(basename "${src%.*}")"
     link_file "$src" "$dst"
   done
-}
-
-link_localrc () {
-  info 'linking synced localrc file'
-  link_file  ~/sync/.secrets/localrc  ~/.localrc
-}
-
-link_ssh () {
-  info 'linking synced .ssh file'
-  link_file  ~/sync/.secrets/.ssh  ~/.ssh
-}
-
-link_gradle () {
-  info 'linking synced gradle dir'
-  link_file  ~/sync/.secrets/gradle/gradle.properties  ~/.gradle/gradle.properties
-}
-
-link_gradle () {
-  info 'linking synced .ngrok dir'
-  link_file  ~/sync/.secrets/ngrok  ~/.ngrok2
-}
-
-link_aws () {
-  info 'linking synced .aws dir'
-  link_file  ~/sync/.secrets/.aws  ~/.aws
+  link_file  ~/s/.secrets/localrc  ~/.localrc
+  link_file  ~/s/.secrets/.ssh  ~/.ssh
+  link_file  ~/s/.secrets/gradle/gradle.properties  ~/.gradle/gradle.properties
+  link_file  ~/s/.secrets/ngrok  ~/.ngrok2
+  link_file  ~/s/.secrets/.aws  ~/.aws
 }
 
 install_dotfiles
-link_aws
-link_gradle
-link_localrc
-link_ssh
-link_ngrok
 

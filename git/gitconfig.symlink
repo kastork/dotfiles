@@ -20,10 +20,17 @@
 	autocrlf = input
 [apply]
         whitespace = nowarn
+[mergetool "Kaleidoscope"]
+	cmd = ksdiff --merge --output \"$MERGED\" --base \"$BASE\" -- \"$LOCAL\" \"$REMOTE\"
 [mergetool]
 	keepBackup = false
+[difftool "Kaleidoscope"]
+        cmd = ksdiff --partial-changeset --relative-path \"$MERGED\" -- \"$LOCAL\" \"$REMOTE\"
 [difftool]
+        tool = Kaleidoscope
         prompt = false
+[diff]
+        tool = Kaleidoscope
 [help]
         autocorrect = 1
 [push]

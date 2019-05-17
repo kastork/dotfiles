@@ -1,1 +1,1 @@
-alias useconda='export PATH=/Users/kirk/anaconda3/bin:$PATH'
+alias useconda='export PATH=~/anaconda3/bin:$PATH'
