@@ -10,7 +10,7 @@ def ltcb = 0.00059392
 def ethb = 0.00004149
 def bnbb = 0 
 
-String key = (new File("~/s/.secrets/coinmarketcap")).text
+String key = (new File("/Users/kirk/s/.secrets/coinmarketcap")).text
 
 def http = new HTTPBuilder('https://pro-api.coinmarketcap.com/v1/')
 
