@@ -88,7 +88,6 @@ cask 'sublime-text'
 # cask 'transmit'  # get via app store instead
 cask 'transmission'
 cask 'visual-studio-code'
-cask 'resilio-sync'
 cask 'sequel-pro'
 cask 'sizeup'
 cask 'yakyak'
