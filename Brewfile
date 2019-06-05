@@ -12,6 +12,7 @@ brew 'coreutils'
 brew 'curl-openssl'
 brew 'dialog' # fails to update as a mere dependency
 brew 'doxygen'
+brew 'flyway'
 brew 'gcc'
 brew 'git'
 brew 'git-lfs'
@@ -90,7 +91,6 @@ cask 'transmission'
 cask 'visual-studio-code'
 cask 'sequel-pro'
 cask 'sizeup'
-cask 'yakyak'
 # cask 'unity-download-assistant' # confuses things when you have more than one unity install.
 
 
