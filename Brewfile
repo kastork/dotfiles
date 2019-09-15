@@ -36,6 +36,7 @@ brew 'neo4j'
 brew 'openssl'
 brew 'oniguruma'
 brew 'pandoc'
+brew 'pipenv'
 brew 'p7zip'
 brew 'qt' # fails to update as a mere dependency
 brew 'r'
