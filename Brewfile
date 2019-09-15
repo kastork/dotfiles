@@ -45,6 +45,7 @@ brew 'sdl2'  # fails to update as a mere dependency
 brew 'socat'
 brew 'spark'
 brew 'sqlite'
+brew 'telnet' # for talking to android emulators
 brew 'terraform'
 brew 'tig'
 brew 'tmux'
@@ -65,7 +66,6 @@ cask 'dash'
 cask 'discord'
 cask 'docker'
 cask 'evernote'
-cask 'eclipse-installer'
 # cask 'fantastical'   get from app store instead
 cask 'firefox'
 cask 'google-chrome'
