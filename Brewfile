@@ -68,7 +68,7 @@ cask 'discord'
 cask 'docker'
 cask 'evernote'
 # cask 'fantastical'   get from app store instead
-cask 'firefox'
+# cask 'firefox'  # Updates itself
 cask 'google-chrome'
 cask 'istat-menus'
 cask 'iterm2'
