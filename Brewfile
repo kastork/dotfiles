@@ -96,7 +96,5 @@ cask 'slack'
 cask 'transmission'
 cask 'sizeup'
 cask 'vagrant'
-cask 'virtualbox'
-cask 'virtualbox-extension-pack'
 
 
