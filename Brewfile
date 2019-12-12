@@ -95,5 +95,6 @@ cask 'ngrok'
 cask 'slack'
 cask 'transmission'
 cask 'sizeup'
+cask 'vagrant'
 
 
