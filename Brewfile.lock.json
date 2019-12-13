@@ -759,7 +759,7 @@
         "bottle": false
       },
       "sqlite": {
-        "version": "3.29.0",
+        "version": "3.30.1",
         "bottle": {
           "cellar": ":any",
           "prefix": "/usr/local",
@@ -1077,7 +1077,7 @@
         "Homebrew/homebrew-core": "c55eef9dcc910f309d5b5956a4059f237c76ad2d",
         "CLT": "1100.0.33.12",
         "Xcode": "11.3",
-        "macOS": "10.15.1"
+        "macOS": "10.15.2"
       }
     }
   }
