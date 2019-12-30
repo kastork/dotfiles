@@ -38,6 +38,7 @@ brew 'oniguruma'
 brew 'pandoc'
 brew 'pipenv'
 brew 'p7zip'
+brew 'pyenv'
 brew 'qt' # fails to update as a mere dependency
 brew 'r'
 brew 'readline'
