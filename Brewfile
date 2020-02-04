@@ -96,5 +96,6 @@ cask 'ngrok'
 cask 'transmission'
 cask 'sizeup'
 cask 'vagrant'
+cask 'brewservicesmenubar'
 
 
