@@ -98,4 +98,5 @@ cask 'sizeup'
 cask 'vagrant'
 cask 'brewservicesmenubar'
 cask 'zotero'
+cask 'zettlr'
 
