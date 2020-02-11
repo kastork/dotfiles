@@ -89,6 +89,8 @@ brew 'zsh'
 # cask 'oracle-jdk'
 # cask 'microsoft-teams'
 ##################
+# cask 'zettlr' # manage manually due to using beta releases
+##################
 
 #cask 'java'
 cask 'mactex'
@@ -100,5 +102,4 @@ cask 'sizeup'
 cask 'vagrant'
 cask 'brewservicesmenubar'
 cask 'zotero'
-cask 'zettlr'
 
