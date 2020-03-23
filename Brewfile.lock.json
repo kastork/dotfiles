@@ -504,10 +504,7 @@
         "version": "3.5.14",
         "bottle": false
       },
-      "openssl": {
-        "version": "1.0.2t",
-        "bottle": null
-      },
+      "openssl": null,
       "oniguruma": {
         "version": "6.9.4",
         "bottle": {
@@ -1045,7 +1042,7 @@
         }
       },
       "netnewswire": {
-        "version": "5.0.2",
+        "version": "5.0.3",
         "options": {
           "full_name": "netnewswire",
           "args": {
@@ -1277,7 +1274,7 @@
         "HOMEBREW_PREFIX": "/usr/local",
         "Homebrew/homebrew-core": "5fb7efa38ba979d544ce6d00a46131d5d191691d",
         "CLT": "11.3.1.0.1.1576735732",
-        "Xcode": "11.3.1",
+        "Xcode": "11.3",
         "macOS": "10.15.3"
       },
       "mojave": {
