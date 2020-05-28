@@ -76,3 +76,4 @@ unset __conda_setup
 # <<< conda initialize <<<
 
 
+iterm2_set_user_var gitBranch $((git branch 2> /dev/null) | grep \* | cut -c3-);
