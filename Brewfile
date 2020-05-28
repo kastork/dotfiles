@@ -1,6 +1,7 @@
 cask_args appdir: '/Applications'
 
 tap 'homebrew/bundle'
+tap 'aws/tap'
 # tap 'puma/puma'
 
 brew 'ag'
@@ -8,6 +9,7 @@ brew 'ack'
 brew 'ansible'
 brew 'awscli'
 brew 'aws-shell'
+brew 'aws/tap/aws-sam-cli'
 brew 'composer'
 brew 'coreutils'
 brew 'curl-openssl'
