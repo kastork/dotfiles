@@ -2,6 +2,7 @@ cask_args appdir: '/Applications'
 
 tap 'homebrew/bundle'
 tap 'aws/tap'
+tap 'd12frosted/emacs-plus'
 # tap 'puma/puma'
 
 brew 'ag'
@@ -15,6 +16,7 @@ brew 'coreutils'
 brew 'curl-openssl'
 brew 'dialog' # fails to update as a mere dependency
 brew 'doxygen'
+brew 'emacs-plus'
 brew 'flyway'
 brew 'gcc'
 brew 'git'
