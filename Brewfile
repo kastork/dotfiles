@@ -17,6 +17,7 @@ brew 'curl-openssl'
 brew 'dialog' # fails to update as a mere dependency
 brew 'doxygen'
 brew 'emacs-plus'
+brew 'fd' # for DOOM emacs
 brew 'flyway'
 brew 'gcc'
 brew 'git'
@@ -52,9 +53,11 @@ brew 'pyenv'
 brew 'qt' # fails to update as a mere dependency
 brew 'r'
 brew 'readline'
+brew 'rg'  # for DOOM emacs
 brew 'ruby'
 brew 'sdl2'  # fails to update as a mere dependency 
 brew 'socat'
+brew 'shellcheck'  # for DOOM emacs
 brew 'spark'
 brew 'sqlite'
 brew 'syncthing'
