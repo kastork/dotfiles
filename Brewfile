@@ -3,6 +3,7 @@ cask_args appdir: '/Applications'
 tap 'homebrew/bundle'
 tap 'aws/tap'
 tap 'd12frosted/emacs-plus'
+tap 'adoptopenjdk/openjdk'
 # tap 'puma/puma'
 
 brew 'ag'
@@ -49,6 +50,7 @@ brew 'pandoc'
 brew 'pandoc-citeproc'
 brew 'pandoc-crossref'
 brew 'pipenv'
+brew 'plantuml'
 brew 'p7zip'
 brew 'pyenv'
 brew 'qt' # fails to update as a mere dependency
@@ -104,7 +106,7 @@ brew 'zsh'
 # cask 'zettlr' # manage manually due to using beta releases
 ##################
 
-#cask 'java'
+cask 'java'
 cask 'mactex'
 cask 'netnewswire'
 cask 'ngrok'

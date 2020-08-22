@@ -117,7 +117,7 @@ install_dotfiles () {
   link_file  ~/s/.secrets/gradle/gradle.properties  ~/.gradle/gradle.properties
   link_file  ~/s/.secrets/ngrok  ~/.ngrok2
   link_file  ~/s/.secrets/.aws  ~/.aws
-  link_file  ~/s/.settings/spacemacs  ~/.spacemacs.d
+  link_file  ~/s/.settings/doom  ~/.doom.d
   link_file  ~/s/.settings/vscode  ~/.vscode
 }
 
