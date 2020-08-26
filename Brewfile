@@ -78,7 +78,6 @@ brew 'zsh'
 # One-time use items, comment out after initial run of updot
 # cask homebrew/cask-versions/adoptopenjdk8
 # cask 'adobe-acrobat-reader' # Can't seem to update itself
-# cask 'Boxcryptor' # Update never seems to work
 # cask 'box-sync'
 # cask 'firefox'  # Updates itself
 # cask 'jetbrains-toolbox'  # manages itself
@@ -106,6 +105,7 @@ brew 'zsh'
 # cask 'zettlr' # manage manually due to using beta releases
 ##################
 
+cask 'Boxcryptor'
 cask 'java'
 cask 'mactex'
 cask 'netnewswire'
