@@ -63,7 +63,7 @@ brew 'socat'
 brew 'shellcheck'  # for DOOM emacs
 brew 'spark'
 brew 'sqlite'
-brew 'syncthing'
+# brew 'syncthing'  # ITACS requested removal of this
 brew 'telnet' # for talking to android emulators
 brew 'terraform'
 brew 'tig'
