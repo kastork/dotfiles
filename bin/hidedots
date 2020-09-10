@@ -1,3 +1,4 @@
 #! /usr/bin/env bash
 
-defaults write com.apple.Finder AppleShowAllFiles FALSE && killall Finder;
+# defaults write com.apple.Finder AppleShowAllFiles FALSE && killall Finder;
+echo "No longer needed, use SHIFT-CMD-."

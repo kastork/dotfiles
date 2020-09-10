@@ -57,6 +57,7 @@ brew 'qt' # fails to update as a mere dependency
 brew 'r'
 brew 'readline'
 brew 'rg'  # for DOOM emacs
+brew 'rsync'
 brew 'ruby'
 brew 'sdl2'  # fails to update as a mere dependency 
 brew 'socat'
