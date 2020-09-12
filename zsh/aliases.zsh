@@ -10,13 +10,13 @@ alias tt='tree -pugh'
 alias t='tree -D'
 
 # Rsync pushes and dryruns
-alias pt_505='rsync -vaz --delete . 505:$(pwd)/'
-alias dt_505='rsync -vazn --delete . 505:$(pwd)/'
-alias pt_little='rsync -vaz --delete . little:$(pwd)/'
-alias dt_little='rsync -vazn --delete . little:$(pwd)/'
+alias pt_505='rsync -vaz --delete --filter "merge .rsyncfilter" . 505:$(pwd)/'
+alias dt_505='rsync -vazn --delete --filter "merge .rsyncfilter" . 505:$(pwd)/'
+alias pt_little='rsync -vaz --delete --filter "merge .rsyncfilter" . little:$(pwd)/'
+alias dt_little='rsync -vazn --delete --filter "merge .rsyncfilter" . little:$(pwd)/'
 
 # Rsync pulls and dryruns
-alias df_505='rsync -vazn --delete 505:$(pwd)/ .'
-alias pf_505='rsync -vaz --delete 505:$(pwd)/ .'
-alias df_little='rsync -vazn --delete little:$(pwd)/ .'
-alias pf_little='rsync -vaz --delete little:$(pwd)/ .'
+alias df_505='rsync -vazn --delete --filter "merge .rsyncfilter" 505:$(pwd)/ .'
+alias pf_505='rsync -vaz --delete --filter "merge .rsyncfilter" 505:$(pwd)/ .'
+alias df_little='rsync -vazn --delete --filter "merge .rsyncfilter" little:$(pwd)/ .'
+alias pf_little='rsync -vaz --delete --filter "merge .rsyncfilter" little:$(pwd)/ .'

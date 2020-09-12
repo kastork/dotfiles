@@ -1,3 +1,5 @@
+# zmodload zsh/zprof
+
 # shortcut to this dotfiles path is $ZSH
 export ZSH=$HOME/.dotfiles
 
@@ -9,7 +11,7 @@ export PROJECTS=~/s/projects
 # you'll have access to them in your scripts.
 if [[ -a ~/.localrc ]]
 then
-  echo "Loading localrc"
+  #  echo "Loading localrc"
   source ~/s/.secrets/.localrc
 fi
 
@@ -61,6 +63,6 @@ export SDKMAN_DIR="/Users/kirk/.sdkman"
 [[ -s "/Users/kirk/.sdkman/bin/sdkman-init.sh" ]] && source "/Users/kirk/.sdkman/bin/sdkman-init.sh"
 
 
-iterm2_set_user_var gitBranch $((git branch 2> /dev/null) | grep \* | cut -c3-);
-
 source /Users/kirk/.config/broot/launcher/bash/br
+
+# zprof
