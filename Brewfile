@@ -82,6 +82,7 @@ brew 'zsh'
 # cask homebrew/cask-versions/adoptopenjdk8
 # cask 'adobe-acrobat-reader' # Can't seem to update itself
 # cask 'box-sync'
+# cask 'Boxcryptor' # fails after first install
 # cask 'firefox'  # Updates itself
 # cask 'jetbrains-toolbox'  # manages itself
 # cask 'omnifocus'  # manages itself
@@ -107,7 +108,6 @@ brew 'zsh'
 ##################
 # cask 'zettlr' # manage manually due to using beta releases
 ##################
-
 cask 'Boxcryptor'
 cask 'java'
 cask 'mactex'
