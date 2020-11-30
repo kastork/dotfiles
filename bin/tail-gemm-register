@@ -1,0 +1,9 @@
+#! /usr/bin/env bash
+
+export AWS_PROFILE=ecco-gov
+aws --no-paginate                                                     \
+    --no-cli-pager                                                    \
+    logs describe-log-groups                                          \
+    --log-group-name-prefix /aws/lambda/ECCO-GEMM-DEV-                 \
+    | jq '.logGroups | sort_by(.creationTime)[-1] | .logGroupName'    \
+| xargs aws logs tail --follow 
