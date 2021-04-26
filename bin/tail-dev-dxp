@@ -1,0 +1,4 @@
+#! /usr/bin/env bash
+
+export AWS_PROFILE=ecco-gov
+aws logs tail --since 1h --follow /NPS/DEV/DXP

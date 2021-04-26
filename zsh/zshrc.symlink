@@ -63,6 +63,7 @@ export SDKMAN_DIR="/Users/kirk/.sdkman"
 [[ -s "/Users/kirk/.sdkman/bin/sdkman-init.sh" ]] && source "/Users/kirk/.sdkman/bin/sdkman-init.sh"
 
 
+
 source /Users/kirk/.config/broot/launcher/bash/br
 
 # zprof
