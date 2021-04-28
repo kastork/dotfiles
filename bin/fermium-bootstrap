@@ -1,0 +1,7 @@
+#! /usr/bin/env bash
+
+nvm use lts/fermium;
+npm -g upgrade --all;
+npm -g install typescript;
+npm -g install @quasar/cli;
+npm -g install aws-cdk;
