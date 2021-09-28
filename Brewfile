@@ -111,8 +111,8 @@ brew 'zsh'
 ##################
 # cask 'zettlr' # manage manually due to using beta releases
 ##################
-cask 'Boxcryptor'
-cask 'java'
+# cask 'Boxcryptor'
+# cask 'java'
 cask 'mactex'
 cask 'neo4j'
 cask 'netnewswire'
