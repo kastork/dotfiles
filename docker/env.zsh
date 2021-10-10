@@ -1,0 +1,2 @@
+# DOCKER_HOST=tcp://192.168.64.3:2375
+# export DOCKER_HOST
