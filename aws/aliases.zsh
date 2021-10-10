@@ -1,4 +1,5 @@
-alias gtail='aws --profile ecco-gov logs tail'
-alias ctail='aws --profile nps-ops logs tail'
-alias ztail='aws --profile zenuevo logs tail'
+alias mpgov='export AWS_PROFILE=mp-gov'
+alias eccogov='export AWS_PROFILE=ecco-gov'
+alias eccocom='export AWS_PROFILE=nps-ops'
+
 

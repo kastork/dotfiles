@@ -1,4 +1,0 @@
-#! /usr/bin/env bash
-
-nvm use lts/fermium;
-npm -g upgrade -all;

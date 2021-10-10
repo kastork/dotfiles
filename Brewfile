@@ -111,14 +111,15 @@ brew 'zsh'
 ##################
 # cask 'zettlr' # manage manually due to using beta releases
 ##################
-cask 'Boxcryptor'
-cask 'java'
+# cask 'Boxcryptor'
+# cask 'java'
 cask 'mactex'
 cask 'neo4j'
 cask 'netnewswire'
 cask 'ngrok'
 # cask 'slack'
 cask 'transmission'
+cask 'tiled' ## game level editor
 cask 'sizeup'
 cask 'vagrant'
 cask 'brewservicesmenubar'
