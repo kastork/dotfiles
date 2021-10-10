@@ -1,0 +1,1 @@
+alias fermium-update='nvm use lts/fermium && npm -g -v update --all'

@@ -119,6 +119,7 @@ cask 'netnewswire'
 cask 'ngrok'
 # cask 'slack'
 cask 'transmission'
+cask 'tiled' ## game level editor
 cask 'sizeup'
 cask 'vagrant'
 cask 'brewservicesmenubar'
