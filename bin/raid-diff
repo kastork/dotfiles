@@ -41,11 +41,17 @@ LEFT_DIR=$wd
 RIGHT_DIR=$raid_loc
 OPTIONS="$*"
 
-if [[ $svn == '/Users/' ]]
+if [[ -d "$raid_loc" ]];
+    then
+        echo "Raid volume is mounted"
+    else
+        open smb://kirk@SynologyRaid._smb._tcp.local/homes
+fi
+
+if [[ $svn == '/Users/' ]];
     then
         echo $raid_loc
-        echo "L is for Left, Left is for Local"
-        open smb://kirk@SynologyRaid._smb._tcp.local/homes
+        echo "L is for Local, R is for RAID"
         # Files that don't exist in Right_Dir
         rsync $OPTIONS -rin --filter=': .rsync-filter' --ignore-existing "$LEFT_DIR"/ "$RIGHT_DIR"/|sed -e 's/^[^ ]* /L             /'
         # Files that don't exist in Left_Dir
