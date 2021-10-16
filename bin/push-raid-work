@@ -3,12 +3,11 @@
 wd=`pwd`
 svn=${wd:0:7}
 d=${wd:7}
-raid_loc="/Volumes/homes/${d}"
+raid_loc="synology-raid:/volume1/homes/${d}"
 
 if [[ $svn == '/Users/' ]]
     then
         echo $raid_loc
-        open smb://kirk@SynologyRaid._smb._tcp.local/homes
         rsync -av --delete --filter=': .rsync-filter' . ${raid_loc}
     else
         echo "This command is only useable from directories rooted at /Users"

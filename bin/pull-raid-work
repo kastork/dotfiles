@@ -7,7 +7,7 @@
 wd=`pwd`
 svn=${wd:0:7}
 d=${wd:7}
-raid_loc="/Volumes/homes/${d}"
+raid_loc="synology-raid:/volume1/homes/${d}"
 
 if [[ $svn == '/Users/' ]]
     then
@@ -15,7 +15,6 @@ if [[ $svn == '/Users/' ]]
         read proceed
         if [[ $proceed == 'y' ]]
             then
-                open smb://kirk@SynologyRaid._smb._tcp.local/homes
                 rsync -av --delete --filter=': ${raid_loc}/.rsync-filter' "${raid_loc}/" .
         fi
     else

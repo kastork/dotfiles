@@ -36,17 +36,10 @@ set -e
 wd=`pwd`
 svn=${wd:0:7}
 d=${wd:7}
-raid_loc="/Volumes/homes/${d}"
+raid_loc="synology-raid:/volume1/homes/${d}"
 LEFT_DIR=$wd
 RIGHT_DIR=$raid_loc
 OPTIONS="$*"
-
-if [[ -d "$raid_loc" ]];
-    then
-        echo "Raid volume is mounted"
-    else
-        open smb://kirk@SynologyRaid._smb._tcp.local/homes
-fi
 
 if [[ $svn == '/Users/' ]];
     then
