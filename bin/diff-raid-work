@@ -46,11 +46,11 @@ if [[ $svn == '/Users/' ]];
         echo $raid_loc
         echo "L is for Local, R is for RAID"
         # Files that don't exist in Right_Dir
-        rsync $OPTIONS -rin --filter=': .rsync-filter' --ignore-existing "$LEFT_DIR"/ "$RIGHT_DIR"/|sed -e 's/^[^ ]* /L             /'
+        rsync $OPTIONS -rinF --ignore-existing "$LEFT_DIR"/ "$RIGHT_DIR"/|sed -e 's/^[^ ]* /L             /'
         # Files that don't exist in Left_Dir
-        rsync $OPTIONS -rin --filter=': ${raid_loc}/.rsync-filter' --ignore-existing "$RIGHT_DIR"/ "$LEFT_DIR"/|sed -e 's/^[^ ]* /R             /'
+        rsync $OPTIONS -rinF --ignore-existing "$RIGHT_DIR"/ "$LEFT_DIR"/|sed -e 's/^[^ ]* /R             /'
         # Files that exist in both dirs but have differences
-        rsync $OPTIONS -rin --filter=': .rsync-filter' --existing "$LEFT_DIR"/ "$RIGHT_DIR"/|sed -e 's/^/X /'
+        rsync $OPTIONS -rinF --existing "$LEFT_DIR"/ "$RIGHT_DIR"/|sed -e 's/^/X /'
     else
         echo "This command is only useable from directories rooted at /Users"
         exit 1
