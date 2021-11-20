@@ -12,7 +12,7 @@ export PROJECTS=~/s/projects
 if [[ -a ~/.localrc ]]
 then
   #  echo "Loading localrc"
-  source ~/s/.secrets/.localrc
+  source ~/.localrc
 fi
 
 # Load custom zsh plugins

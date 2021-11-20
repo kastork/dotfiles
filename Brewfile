@@ -84,7 +84,6 @@ brew 'zsh'
 # One-time use items, comment out after initial run of updot
 # cask homebrew/cask-versions/adoptopenjdk8
 # cask 'adobe-acrobat-reader' # Can't seem to update itself
-# cask 'box-sync'
 # cask 'Boxcryptor' # fails after first install
 # cask 'firefox'  # Updates itself
 # cask 'jetbrains-toolbox'  # manages itself
@@ -113,6 +112,11 @@ brew 'zsh'
 ##################
 # cask 'Boxcryptor'
 # cask 'java'
+cask 'font-ibm-plex'
+cask 'font-inconsolata-nerd-font'
+cask 'font-cascadia-code'
+cask 'font-cascadia-mono'
+cask 'font-hackgen'
 cask 'mactex'
 cask 'neo4j'
 cask 'netnewswire'
