@@ -84,3 +84,5 @@ unset __conda_setup
 
 
 export PATH="/Users/kirk/.deta/bin:$PATH"
+
+export PATH="$PATH:/Users/kirk/Library/PackageManager/bin"
