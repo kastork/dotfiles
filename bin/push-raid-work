@@ -8,7 +8,7 @@ raid_loc="synology-raid:/volume1/homes/${d}"
 if [[ $svn == '/Users/' ]]
     then
         echo $raid_loc
-        rsync -avF --delete . ${raid_loc}
+        rsync -rlptovzF --delete . ${raid_loc}
     else
         echo "This command is only useable from directories rooted at /Users"
         exit 1

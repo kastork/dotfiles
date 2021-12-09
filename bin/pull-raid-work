@@ -15,7 +15,7 @@ if [[ $svn == '/Users/' ]]
         read proceed
         if [[ $proceed == 'y' ]]
             then
-                rsync -avF --delete "${raid_loc}/" .
+                rsync -rlptovzF --delete "${raid_loc}/" .
         fi
     else
         echo "This command is only useable from directories rooted at /Users"
