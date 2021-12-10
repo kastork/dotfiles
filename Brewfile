@@ -106,6 +106,7 @@ brew 'zsh'
 ##################
 # cask 'Boxcryptor'
 # cask 'java'
+cask 'anaconda'
 cask 'font-ibm-plex'
 cask 'font-inconsolata-nerd-font'
 cask 'font-cascadia-code'
