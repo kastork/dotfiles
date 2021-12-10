@@ -113,7 +113,7 @@ cask 'font-cascadia-code'
 cask 'font-cascadia-mono'
 cask 'font-hackgen'
 cask 'mactex'
-cask 'neo4j'
+# cask 'neo4j' use a docker container instead.
 cask 'netnewswire'
 cask 'ngrok'
 # cask 'slack'
