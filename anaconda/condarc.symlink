@@ -3,3 +3,5 @@ ssl_verify: true
 channels:
   - conda-forge
   - defaults
+envs_dirs:
+  - ~/.conda/envs
