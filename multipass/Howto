@@ -1,0 +1,14 @@
+Howto
+
+https://ubuntu.com/blog/replacing-docker-desktop-on-windows-and-mac-with-multipass
+
+This has some useful info as well
+
+https://www.cnbeining.com/2021/09/using-docker-and-docker-compose-on-macos-with-multipass/
+
+
+make sure multipassd has disk access in mac system settings.
+
+multipass launch --name docker-vm -d 30G -m 8G -c 4 --cloud-init /Users/kirk/.dotfiles/multipass/cloud-init.yaml
+multipass mount ~ docker-vm
+multipass alias docker-vm:docker
