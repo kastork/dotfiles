@@ -14,6 +14,7 @@ brew 'awscli'
 brew 'aws-shell'
 brew 'aws/tap/aws-sam-cli'
 brew 'cmake' # some emacs modules require this for build/upgrad
+brew 'colima'
 brew 'composer'
 brew 'coreutils'
 brew 'curl-openssl'

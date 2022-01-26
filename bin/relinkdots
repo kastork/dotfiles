@@ -114,6 +114,7 @@ install_dotfiles () {
   done
   link_file  ~/s/.secrets/localrc  ~/.localrc
   link_file  ~/s/.secrets/.ssh  ~/.ssh
+  link_file  ~/s/.secrets/.aws ~/.aws
   link_file  ~/s/.secrets/gradle/gradle.properties  ~/.gradle/gradle.properties
   link_file  ~/s/.secrets/ngrok  ~/.ngrok2
   link_file  ~/s/.secrets/.aws  ~/.aws
