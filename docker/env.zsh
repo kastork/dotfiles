@@ -1,4 +1,4 @@
-# DOCKER_HOST=tcp://192.168.64.3:2375
+# DOCKER_HOST=tcp://192.168.0.1:2375
 # export DOCKER_HOST
 # alias d='docker $*'
 # alias d-c='docker-compose $*'
