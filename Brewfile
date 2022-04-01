@@ -52,7 +52,7 @@ brew 'oniguruma'
 brew 'pandoc'
 brew 'pandoc-crossref'
 brew 'plantuml'
-brew 'poetry'
+# brew 'poetry' # switch to poetry's recommended installer.
 brew 'p7zip'
 brew 'qt' # fails to update as a mere dependency
 brew 'r'

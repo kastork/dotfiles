@@ -71,3 +71,5 @@ export SDKMAN_DIR="/Users/kirk/.sdkman"
 export PATH="/Users/kirk/.deta/bin:$PATH"
 
 export PATH="$PATH:/Users/kirk/Library/PackageManager/bin"
+
+export PATH="$HOME/.poetry/bin:$PATH"

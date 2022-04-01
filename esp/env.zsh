@@ -1,0 +1,1 @@
+#export IDF_PATH=/Users/kirk/esp/esp-idf
