@@ -1,0 +1,1 @@
+export GRAALVM_HOME=/Users/kirk/.sdkman/candidates/java/22.1.0.r11-grl

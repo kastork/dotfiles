@@ -11,7 +11,7 @@ export PROJECTS=~/s/projects
 # you'll have access to them in your scripts.
 if [[ -a ~/.localrc ]]
 then
-  #  echo "Loading localrc"
+  echo "Loading localrc"
   source ~/.localrc
 fi
 
