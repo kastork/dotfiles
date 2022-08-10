@@ -3,5 +3,8 @@ alias eccogov='export AWS_PROFILE=ecco-gov'
 alias movesgov='export AWS_PROFILE=lincolnlabs-ops'
 alias eccocom='export AWS_PROFILE=nps-ops'
 alias perscom='export AWS_PROFILE=zenuevo-admin'
-
+alias west1='export AWS_REGION=us-west-1'
+alias west1='export AWS_REGION=us-west-2'
+alias east1='export AWS_REGION=us-east-1'
+alias govwest='export AWS_REGION=us-gov-west-1'
 
