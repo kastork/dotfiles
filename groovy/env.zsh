@@ -1,0 +1,1 @@
+export PATH=$PATH:/Users/kirk/.sdkman/candidates/groovy/current/bin

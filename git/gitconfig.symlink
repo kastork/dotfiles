@@ -21,16 +21,19 @@
 [apply]
         whitespace = nowarn
 [mergetool "Kaleidoscope"]
-	cmd = ksdiff --merge --output \"$MERGED\" --base \"$BASE\" -- \"$LOCAL\" \"$REMOTE\"
+	cmd = ksdiff --merge --output \"$MERGED\" --base \"$BASE\" -- \"$LOCAL\" --snapshot \"$REMOTE\" --snapshot
+	trustExitCode = true
 [mergetool]
 	keepBackup = true
+	prompt = false
 [difftool "Kaleidoscope"]
-        cmd = ksdiff --partial-changeset --relative-path \"$MERGED\" -- \"$LOCAL\" \"$REMOTE\"
+	cmd = ksdiff --partial-changeset --relative-path \"$MERGED\" -- \"$LOCAL\" \"$REMOTE\"
 [difftool]
         tool = Kaleidoscope
-        prompt = false
+	prompt = false
+	trustExitCode = true
 [diff]
-        tool = Kaleidoscope
+	tool = Kaleidoscope
 [help]
         autocorrect = 1
 [push]
@@ -49,3 +52,5 @@
 	required = true
 [credential]
 	helper = osxkeychain
+[merge]
+	tool = Kaleidoscope

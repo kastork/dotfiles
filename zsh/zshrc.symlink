@@ -58,9 +58,12 @@ unset config_files
 
 test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell_integration.zsh"
 
-
-export SDKMAN_DIR="/Users/kirk/.sdkman"
-[[ -s "/Users/kirk/.sdkman/bin/sdkman-init.sh" ]] && source "/Users/kirk/.sdkman/bin/sdkman-init.sh"
+export HOMEBREW_PREFIX="/opt/homebrew";
+export HOMEBREW_CELLAR="/opt/homebrew/Cellar";
+export HOMEBREW_REPOSITORY="/opt/homebrew";
+export PATH="/opt/homebrew/bin:/opt/homebrew/sbin${PATH+:$PATH}";
+export MANPATH="/opt/homebrew/share/man${MANPATH+:$MANPATH}:";
+export INFOPATH="/opt/homebrew/share/info:${INFOPATH:-}";
 
 
 
@@ -75,21 +78,10 @@ export PATH="$PATH:/Users/kirk/Library/PackageManager/bin"
 export PATH="$HOME/.poetry/bin:$PATH"
 
 
-# >>> conda initialize >>>
-# !! Contents within this block are managed by 'conda init' !!
-__conda_setup="$('/Users/kirk/opt/anaconda3/bin/conda' 'shell.zsh' 'hook' 2> /dev/null)"
-if [ $? -eq 0 ]; then
-    eval "$__conda_setup"
-else
-    if [ -f "/Users/kirk/opt/anaconda3/etc/profile.d/conda.sh" ]; then
-        . "/Users/kirk/opt/anaconda3/etc/profile.d/conda.sh"
-    else
-        export PATH="/Users/kirk/opt/anaconda3/bin:$PATH"
-    fi
-fi
-unset __conda_setup
-# <<< conda initialize <<<
-
-
 # Add RVM to PATH for scripting. Make sure this is the last PATH variable change.
 export PATH="$PATH:$HOME/.rvm/bin"
+
+
+export SDKMAN_DIR="/Users/kirk/.sdkman"
+[[ -s "/Users/kirk/.sdkman/bin/sdkman-init.sh" ]] && source "/Users/kirk/.sdkman/bin/sdkman-init.sh"
+

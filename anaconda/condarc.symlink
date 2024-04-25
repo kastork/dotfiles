@@ -1,7 +1,7 @@
 auto_activate_base: false
 ssl_verify: true
 channels:
-  - conda-forge
   - defaults
+  - conda-forge
 envs_dirs:
   - ~/.conda/envs
